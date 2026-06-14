@@ -10,7 +10,6 @@ from database import (
     delete_one
 )
 
-
 router = APIRouter(
     prefix="/api/notes",
     tags=["notes"]
